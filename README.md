@@ -12,4 +12,4 @@ Linux
 Nintendo Switch
 ```
 
-Please follow the setup guide listed [here](https://github.com/sorsnce/retrobit.games/retro.md).
+Please follow the setup guide listed [here](https://github.com/Sorsnce/retrobit.games/blob/master/retro.md).
