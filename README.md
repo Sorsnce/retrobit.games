@@ -13,3 +13,16 @@ Nintendo Switch
 ```
 
 Please follow the setup guide listed [here](https://github.com/Sorsnce/retrobit.games/blob/master/retro.md).
+
+## RetroBit.Games Website
+Currently RetroBit.Games was designed to allow any users to upload their ROMs to our website and get instant access to their roms, saves, and states on any devices. The following lists what the front-end application is currently configured too.
+
+![Screenshot of HomePage](https://i.imgur.com/YJc4uVe.png)
+
+Currently users can log into RetroBit.Games via the RetroBit website.
+![Screenshot of Login](https://i.imgur.com/1243aPv.png)
+![Screenshot of UserPage](https://i.imgur.com/GWSbpJ2.png)
+
+RetroBit.Games supports many different type of ROMs and Platforms.
+![Screenshot of N64](https://i.imgur.com/bPOMinh.png)
+![Screenshot of SNES](https://i.imgur.com/rf9Irbc.png)
