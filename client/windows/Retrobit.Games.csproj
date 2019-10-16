@@ -1,0 +1,1462 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{985C85CA-7B0F-46D3-AC87-B686953630E4}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Retrobit.Games</RootNamespace>
+    <AssemblyName>Retrobit.Games</AssemblyName>
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>D:\RetroBit.Games\RBG-Window\Production\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>https://retrobit.games/</InstallUrl>
+    <UpdateUrl>https://Retrobit.Games/</UpdateUrl>
+    <SupportUrl>https://RetroBit.Games/</SupportUrl>
+    <PublisherName>RetroBit.Games</PublisherName>
+    <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
+    <WebPage>publish.htm</WebPage>
+    <ApplicationRevision>5</ApplicationRevision>
+    <ApplicationVersion>1.6.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RunCodeAnalysis>false</RunCodeAnalysis>
+    <CodeAnalysisRuleSet>Retrobit.Games.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisIgnoreGeneratedCode>false</CodeAnalysisIgnoreGeneratedCode>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>Retrobit.Games.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>56A7B38565023167C13BD8225A8310AF1D46AD06</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>
+    </ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>website_3l4_icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>RetroBit.Games.pfx</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BCrypt.Net-Next.StrongName, Version=3.1.0.0, Culture=neutral, PublicKeyToken=1e11be04b6288443, processorArchitecture=MSIL">
+      <HintPath>packages\BCrypt.Net-Next.StrongName.3.1.0\lib\net452\BCrypt.Net-Next.StrongName.dll</HintPath>
+    </Reference>
+    <Reference Include="mysql.data, Version=6.10.7.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\mysql.data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl1.Designer.cs">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl10.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl10.Designer.cs">
+      <DependentUpon>UserControl10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl11.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl11.Designer.cs">
+      <DependentUpon>UserControl11.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl12.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl12.Designer.cs">
+      <DependentUpon>UserControl12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl13.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl13.Designer.cs">
+      <DependentUpon>UserControl13.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl14.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl14.Designer.cs">
+      <DependentUpon>UserControl14.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl15.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl15.Designer.cs">
+      <DependentUpon>UserControl15.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl16.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl16.Designer.cs">
+      <DependentUpon>UserControl16.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl17.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl17.Designer.cs">
+      <DependentUpon>UserControl17.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl18.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl18.Designer.cs">
+      <DependentUpon>UserControl18.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl19.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl19.Designer.cs">
+      <DependentUpon>UserControl19.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl2.Designer.cs">
+      <DependentUpon>UserControl2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl20.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl20.Designer.cs">
+      <DependentUpon>UserControl20.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl21.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl21.Designer.cs">
+      <DependentUpon>UserControl21.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl22.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl22.Designer.cs">
+      <DependentUpon>UserControl22.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl23.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl23.Designer.cs">
+      <DependentUpon>UserControl23.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl24.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl24.Designer.cs">
+      <DependentUpon>UserControl24.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl25.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl25.Designer.cs">
+      <DependentUpon>UserControl25.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl26.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl26.Designer.cs">
+      <DependentUpon>UserControl26.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl27.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl27.Designer.cs">
+      <DependentUpon>UserControl27.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl28.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl28.Designer.cs">
+      <DependentUpon>UserControl28.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl29.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl29.Designer.cs">
+      <DependentUpon>UserControl29.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl30.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl30.Designer.cs">
+      <DependentUpon>UserControl30.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl31.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl31.Designer.cs">
+      <DependentUpon>UserControl31.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl32.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl32.Designer.cs">
+      <DependentUpon>UserControl32.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl33.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl33.Designer.cs">
+      <DependentUpon>UserControl33.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl34.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl34.Designer.cs">
+      <DependentUpon>UserControl34.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl35.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl35.Designer.cs">
+      <DependentUpon>UserControl35.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl36.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl36.Designer.cs">
+      <DependentUpon>UserControl36.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl37.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl37.Designer.cs">
+      <DependentUpon>UserControl37.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl38.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl38.Designer.cs">
+      <DependentUpon>UserControl38.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl39.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl39.Designer.cs">
+      <DependentUpon>UserControl39.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl4.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl4.Designer.cs">
+      <DependentUpon>UserControl4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl40.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl40.Designer.cs">
+      <DependentUpon>UserControl40.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl41.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl41.Designer.cs">
+      <DependentUpon>UserControl41.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl42.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl42.Designer.cs">
+      <DependentUpon>UserControl42.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl43.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl43.Designer.cs">
+      <DependentUpon>UserControl43.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl44.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl44.Designer.cs">
+      <DependentUpon>UserControl44.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl45.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl45.Designer.cs">
+      <DependentUpon>UserControl45.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl46.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl46.Designer.cs">
+      <DependentUpon>UserControl46.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl47.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl47.Designer.cs">
+      <DependentUpon>UserControl47.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl48.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl48.Designer.cs">
+      <DependentUpon>UserControl48.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl49.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl49.Designer.cs">
+      <DependentUpon>UserControl49.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl5.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl5.Designer.cs">
+      <DependentUpon>UserControl5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl50.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl50.Designer.cs">
+      <DependentUpon>UserControl50.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl51.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl51.Designer.cs">
+      <DependentUpon>UserControl51.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl52.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl52.Designer.cs">
+      <DependentUpon>UserControl52.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl53.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl53.Designer.cs">
+      <DependentUpon>UserControl53.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl54.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl54.Designer.cs">
+      <DependentUpon>UserControl54.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl55.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl55.Designer.cs">
+      <DependentUpon>UserControl55.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl56.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl56.Designer.cs">
+      <DependentUpon>UserControl56.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl57.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl57.Designer.cs">
+      <DependentUpon>UserControl57.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl58.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl58.Designer.cs">
+      <DependentUpon>UserControl58.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl59.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl59.Designer.cs">
+      <DependentUpon>UserControl59.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl6.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl6.Designer.cs">
+      <DependentUpon>UserControl6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl60.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl60.Designer.cs">
+      <DependentUpon>UserControl60.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl61.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl61.Designer.cs">
+      <DependentUpon>UserControl61.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl62.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl62.Designer.cs">
+      <DependentUpon>UserControl62.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl63.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl63.Designer.cs">
+      <DependentUpon>UserControl63.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl64.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl64.Designer.cs">
+      <DependentUpon>UserControl64.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl65.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl65.Designer.cs">
+      <DependentUpon>UserControl65.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl66.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl66.Designer.cs">
+      <DependentUpon>UserControl66.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl67.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl67.Designer.cs">
+      <DependentUpon>UserControl67.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl68.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl68.Designer.cs">
+      <DependentUpon>UserControl68.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl69.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl69.Designer.cs">
+      <DependentUpon>UserControl69.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl7.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl7.Designer.cs">
+      <DependentUpon>UserControl7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl70.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl70.Designer.cs">
+      <DependentUpon>UserControl70.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl71.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl71.Designer.cs">
+      <DependentUpon>UserControl71.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl72.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl72.Designer.cs">
+      <DependentUpon>UserControl72.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl73.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl73.Designer.cs">
+      <DependentUpon>UserControl73.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl74.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl74.Designer.cs">
+      <DependentUpon>UserControl74.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl75.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl75.Designer.cs">
+      <DependentUpon>UserControl75.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl8.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl8.Designer.cs">
+      <DependentUpon>UserControl8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl9.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl9.Designer.cs">
+      <DependentUpon>UserControl9.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl1.resx">
+      <DependentUpon>UserControl1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl10.resx">
+      <DependentUpon>UserControl10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl11.resx">
+      <DependentUpon>UserControl11.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl12.resx">
+      <DependentUpon>UserControl12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl13.resx">
+      <DependentUpon>UserControl13.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl14.resx">
+      <DependentUpon>UserControl14.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl15.resx">
+      <DependentUpon>UserControl15.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl16.resx">
+      <DependentUpon>UserControl16.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl17.resx">
+      <DependentUpon>UserControl17.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl18.resx">
+      <DependentUpon>UserControl18.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl19.resx">
+      <DependentUpon>UserControl19.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl2.resx">
+      <DependentUpon>UserControl2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl20.resx">
+      <DependentUpon>UserControl20.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl21.resx">
+      <DependentUpon>UserControl21.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl22.resx">
+      <DependentUpon>UserControl22.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl23.resx">
+      <DependentUpon>UserControl23.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl24.resx">
+      <DependentUpon>UserControl24.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl25.resx">
+      <DependentUpon>UserControl25.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl26.resx">
+      <DependentUpon>UserControl26.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl27.resx">
+      <DependentUpon>UserControl27.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl28.resx">
+      <DependentUpon>UserControl28.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl29.resx">
+      <DependentUpon>UserControl29.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl30.resx">
+      <DependentUpon>UserControl30.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl31.resx">
+      <DependentUpon>UserControl31.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl32.resx">
+      <DependentUpon>UserControl32.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl33.resx">
+      <DependentUpon>UserControl33.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl34.resx">
+      <DependentUpon>UserControl34.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl35.resx">
+      <DependentUpon>UserControl35.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl36.resx">
+      <DependentUpon>UserControl36.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl37.resx">
+      <DependentUpon>UserControl37.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl38.resx">
+      <DependentUpon>UserControl38.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl39.resx">
+      <DependentUpon>UserControl39.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl4.resx">
+      <DependentUpon>UserControl4.cs</DependentUpon>
+    </EmbeddedResource>
+    <Content Include="lotmm.bat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <EmbeddedResource Include="UserControl40.resx">
+      <DependentUpon>UserControl40.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl41.resx">
+      <DependentUpon>UserControl41.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl42.resx">
+      <DependentUpon>UserControl42.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl43.resx">
+      <DependentUpon>UserControl43.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl44.resx">
+      <DependentUpon>UserControl44.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl45.resx">
+      <DependentUpon>UserControl45.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl46.resx">
+      <DependentUpon>UserControl46.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl47.resx">
+      <DependentUpon>UserControl47.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl48.resx">
+      <DependentUpon>UserControl48.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl49.resx">
+      <DependentUpon>UserControl49.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl5.resx">
+      <DependentUpon>UserControl5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl50.resx">
+      <DependentUpon>UserControl50.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl51.resx">
+      <DependentUpon>UserControl51.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl52.resx">
+      <DependentUpon>UserControl52.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl53.resx">
+      <DependentUpon>UserControl53.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl54.resx">
+      <DependentUpon>UserControl54.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl55.resx">
+      <DependentUpon>UserControl55.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl56.resx">
+      <DependentUpon>UserControl56.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl57.resx">
+      <DependentUpon>UserControl57.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl58.resx">
+      <DependentUpon>UserControl58.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl59.resx">
+      <DependentUpon>UserControl59.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl6.resx">
+      <DependentUpon>UserControl6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl60.resx">
+      <DependentUpon>UserControl60.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl61.resx">
+      <DependentUpon>UserControl61.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl62.resx">
+      <DependentUpon>UserControl62.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl63.resx">
+      <DependentUpon>UserControl63.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl64.resx">
+      <DependentUpon>UserControl64.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl65.resx">
+      <DependentUpon>UserControl65.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl66.resx">
+      <DependentUpon>UserControl66.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl67.resx">
+      <DependentUpon>UserControl67.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl68.resx">
+      <DependentUpon>UserControl68.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl69.resx">
+      <DependentUpon>UserControl69.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl7.resx">
+      <DependentUpon>UserControl7.cs</DependentUpon>
+    </EmbeddedResource>
+    <Content Include="lotoot.bat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <EmbeddedResource Include="UserControl70.resx">
+      <DependentUpon>UserControl70.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl71.resx">
+      <DependentUpon>UserControl71.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl72.resx">
+      <DependentUpon>UserControl72.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl73.resx">
+      <DependentUpon>UserControl73.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl74.resx">
+      <DependentUpon>UserControl74.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl75.resx">
+      <DependentUpon>UserControl75.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl8.resx">
+      <DependentUpon>UserControl8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl9.resx">
+      <DependentUpon>UserControl9.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Resources\f50ff361-ed6d-4877-ab98-f85c2037efc3.jpg" />
+    <None Include="Resources\b68a54a4-ece1-4f62-a93f-be07b7a61379.jpg" />
+    <None Include="Resources\0f1ff472-a800-471e-b99b-7ce9d672cbbb.jpg.png" />
+    <None Include="Resources\d54ea3d5-440e-4659-96d5-3f3dd6a123f2.jpg" />
+    <None Include="Resources\96d86e0c-e80f-43f3-82f9-3fbadf389ab0.jpg" />
+    <None Include="Resources\67080b03-6fee-4761-adc4-abd87842a4d2.jpg" />
+    <None Include="Resources\df436972-2e5c-4525-8c0c-82c4b77be5b3.jpg" />
+    <None Include="Resources\335880f8-1db7-4b9c-b918-0d168d01fec5.jpg" />
+    <None Include="Resources\3fdfea06-890f-49b7-9a3e-248fea26def2.jpg" />
+    <None Include="Resources\33aaa5f8-d8bb-4cf8-b7fd-b39a5759b53f.png.jpg" />
+    <None Include="Resources\c5a08c70-9bcd-4cd7-96d7-df2c4f82bc2b.jpg" />
+    <None Include="Resources\40a6e33a-a1d8-4226-9e9b-5398226156e2.jpg" />
+    <None Include="Resources\1f9e7bad-5692-49b8-a438-232abe866541.jpg" />
+    <None Include="Resources\6f4cb84e-43ce-4b42-88dc-593c994377f1.png" />
+    <None Include="Resources\cf86a691-49bc-448d-b8d2-335f328449f0.jpg" />
+    <None Include="Resources\c712dd7d-db08-4b1e-a057-927fe054cee4.jpg" />
+    <None Include="Resources\1c8096c5-7af6-4dbd-a7e4-4df98c9c44fb.jpg" />
+    <None Include="Resources\0bdcf9f7-572e-4311-b600-6a7cabdf9a0a.jpg" />
+    <None Include="Resources\98cebfcf-1a08-435f-bdcc-27e47073f205.jpg" />
+    <None Include="Resources\Kirby%27s_Adventure_logo.png" />
+    <None Include="Resources\tumblr_oa20wbh97D1uot2dco3_500.png" />
+    <None Include="Resources\300px-TAoL_Black_Logo.png" />
+    <None Include="Resources\link_sprite_cutout.gif" />
+    <None Include="Resources\Super_Mario_Bros._Logo.svg.png" />
+    <None Include="Resources\Super_Mario_Bros._Logo.svg1.png" />
+    <None Include="Resources\mario.png" />
+    <None Include="Resources\Yoshi_logo.png" />
+    <None Include="Resources\Ph03nyx-Super-Mario-Yoshis-Egg.ico" />
+    <None Include="Resources\38_-_Yoshi_games_play_fun_-512.png" />
+    <None Include="Resources\Punchout_Arcade_Logo.png" />
+    <None Include="Resources\punchout_marquee.jpg" />
+    <None Include="Resources\f5f5ede1330e54b600248c9ac5c88a19.png" />
+    <None Include="Resources\d772fa65-e0de-409f-b52e-e0e7d65c4fe7.png" />
+    <None Include="Resources\excitebike_2.png" />
+    <None Include="Resources\Super_mario_bros_2_logo_by_ringostarr39-d5c6owz.png" />
+    <None Include="Resources\Ph03nyx-Super-Mario-Retro-Flower-Fire-2.ico" />
+    <None Include="Resources\a9e792fb75ef894.png" />
+    <None Include="Resources\41448c94-cc89-41a7-b77d-673701608517.png" />
+    <None Include="Resources\Logoarm.png" />
+    <None Include="Resources\Ghosts-n-Goblins-Logo.png" />
+    <None Include="Resources\2gsjgna1uruvUuS7ndh9YqVwYGPLVszbFLwwpAYXZyHFKtHTof7Xzn6JDKEZ5WFpZZ26hNuanYJ4pLfv1ttVPV2pt6YKTbofJWoZAqvj7KqH5ayQDb.gif" />
+    <None Include="Resources\Super-mario-bros-3-seeklogo_com.png" />
+    <None Include="Resources\icon_issue15supermariobros3.gif" />
+    <None Include="Resources\TLOZ.png" />
+    <None Include="Resources\triforce-icon-600x520.png" />
+    <None Include="Resources\Donkey_Kong_arcade_logo.png" />
+    <None Include="Resources\DK_DK.png" />
+    <None Include="Resources\045d5800-989c-4bcd-9668-af30a204a5d3.png" />
+    <None Include="Resources\Ice_Climber_Classics.png" />
+    <None Include="Resources\Metroid_Title.png" />
+    <None Include="Resources\metroid-9-320744.png" />
+    <None Include="Resources\super-dodgeball-nes-logo.png" />
+    <None Include="Resources\Red_Nose_Transparent.png" />
+    <None Include="Resources\3D_Classics_Kid_Icarus.png" />
+    <None Include="Resources\Kid_Icarus_Universe_Icon.png" />
+    <None Include="Resources\Dr_Mario_logo.png" />
+    <None Include="Resources\Dr._Mario_Icon.png" />
+    <None Include="Resources\bf7969a7-a0dc-4e94-87f0-5edc8996538c.png" />
+    <None Include="Resources\gifs_ninja-gaiden_avatar.gif" />
+    <None Include="Resources\Castlevania_logo_color.png" />
+    <None Include="Resources\CastlevaniaSymbol.png" />
+    <None Include="Resources\90cf2517-1ef8-49bd-866c-a2d2b7b5d1a4.png" />
+    <None Include="Resources\e96de88c-338a-490b-a664-dea3a636cf1c.png" />
+    <None Include="Resources\6cb6058b-0215-47cf-9691-af3e78ce23a6.jpg" />
+    <None Include="Resources\76544f7b-a881-4a4a-83ec-721b9bdef3c1.jpg" />
+    <None Include="Resources\a530156e-0ecc-48d5-8920-22f6c4b7db8e.png" />
+    <None Include="Resources\7f1cd22b-5f8e-47bd-b5ad-eb3ec0bf2a13.jpg" />
+    <None Include="Resources\35a3d0f0-461d-4ee0-8afa-df5d1b753a99.jpg" />
+    <None Include="Resources\4503d0f6-3dad-4dfd-8ab5-54be64130f4d.jpg" />
+    <None Include="Resources\055b1d16-43ab-48be-8565-8ccedc8802d5.jpg" />
+    <None Include="Resources\9d530b2c-f042-4dbd-b8be-ff1a9914bc71.png" />
+    <None Include="Resources\6d4eee5b-4a18-426a-8c90-55203923c246.jpg" />
+    <None Include="Resources\eff8a63e-272b-47fc-8a2a-d6905df2b330.jpg" />
+    <None Include="Resources\f0760be3-acfe-49d0-8084-f6ff2508af2c.jpg" />
+    <None Include="Resources\c0cfa5ca-0b5a-40e8-a94c-42ff9741e312.png" />
+    <None Include="Resources\bc942bdf-d6a2-4292-8edd-4eb44efee8fd.jpg.png" />
+    <None Include="Resources\4a036083-b5c7-4d0e-8d33-d45a567f34b7.png" />
+    <None Include="Resources\91c408e4833006eb93d33d23587e561e.gif" />
+    <None Include="Resources\pyellow.png" />
+    <None Include="Resources\pokemon_go_play_game_charcter-512.png" />
+    <None Include="Resources\Logo_EN_-_Pokemon_Crystal.png" />
+    <None Include="Resources\1200px-245Suicune.png" />
+    <None Include="Resources\Pokemon_FireRed_logo.png" />
+    <None Include="Resources\250px-006Charizard.png" />
+    <None Include="Resources\1200px-ALttP_Logo.png" />
+    <None Include="Resources\The_Legend_of_Zelda_-_Link%27s_Awakening_DX_%28logo%29.png" />
+    <None Include="Resources\fd6c1956ba89b2cdbc348d810071cd57_icon.png" />
+    <None Include="Resources\Oracle_of_Ages_Logo.png" />
+    <None Include="Resources\Link_and_the_Rod_of_Seasons.png" />
+    <None Include="Resources\PokémonEmerald.png" />
+    <None Include="Resources\250px-384Rayquaza.png" />
+    <None Include="Resources\e92fe3421ccfa39212722e984c06e0b490d9f8e3_00.jpg" />
+    <None Include="Resources\TMC_Ezlo_Artwork.png" />
+    <None Include="Resources\Mario_Kart_Super_Circuit_logo.png" />
+    <None Include="Resources\mk.png" />
+    <None Include="Resources\Wario_Land_3_Logo.png" />
+    <None Include="Resources\Wario_SR_Icon.png" />
+    <None Include="Resources\p6z4.png" />
+    <None Include="Resources\tetris-worlds.jpg" />
+    <None Include="Resources\Logo-GBC.png" />
+    <None Include="Resources\Shantae_icons_square_girl.png" />
+    <None Include="Resources\f88916aa-e75c-4f09-bb40-e3ff07665a55.png" />
+    <None Include="Resources\SurvivalKids_Title_EU.png" />
+    <None Include="Resources\metroidzm_13_hd.jpg" />
+    <None Include="Resources\0e4dd70c-9f9e-4faa-8870-0e433bd4f231.png" />
+    <None Include="Resources\0e4dd70c-9f9e-4faa-8870-0e433bd4f2311.png" />
+    <None Include="Resources\Metroid_Fusion_Logo.png" />
+    <None Include="Resources\metroid-9-3207441.png" />
+    <None Include="Resources\Mario_and_Luigi_Superstar_Saga_Logo.png" />
+    <None Include="Resources\Mario_and_Luigi_22.png" />
+    <None Include="Resources\WarioWare_-_Logo.png" />
+    <None Include="Resources\263b14be-63d3-404a-a35b-7230897a7fcf.png" />
+    <None Include="Resources\Wariowarebomb.png" />
+    <Content Include="RetroArch\content_history.lpl">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\cores\bnes_libretro.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\cores\emux_nes_libretro.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\cores\gambatte_libretro.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\cores\imageviewer_libretro.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\cores\mgba_libretro.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\cores\parallel_n64_libretro.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\cores\retrobit_nes.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\libstdc++-6.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\retroarch-core-options.cfg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\retroarch.cfg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\retroarch.default.cfg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\roms\test.smc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\saves\test.srm">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\screenshots\Controls-N64.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\styles\N64.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\system\Mupen64plus\cache\THE LEGEND OF ZELDA_HIRESTEXTURES.htc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\system\Mupen64plus\cache\ZELDA MAJORA%27S MASK_HIRESTEXTURES.htc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\system\Mupen64plus\mupen64plus.ini">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\system\Mupen64plus\shaders\GLideN64.356c268e.OpenGL.shaders">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\test.smc">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\states\test.srm">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="RetroBit.Games.pfx" />
+    <None Include="Retrobit.Games.ruleset" />
+    <None Include="Retrobit.Games_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\index.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nintendo-64-logo-1024x308.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1280px-NES_logo.svg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1280px-SNES_logo.svg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sega_genesis_logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_chat_alert-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\setting-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-computer-icons-shutdown-button-logo-power-5abd365d4a86d2.7214086015223496613053.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="index_Q3I_icon.ico" />
+    <None Include="Resources\majora-mask.png" />
+    <None Include="Resources\majora_s_mask_logo_by_blueamnesiac-d7f83th.png" />
+    <None Include="Resources\Super_Mario_64.png" />
+    <None Include="Resources\kisspng-window-princess-peach-stained-glass-super-mario-64-watercolor-stain-5ac9f779d131d0.8647173515231855298569.jpg" />
+    <None Include="Resources\mario64bp_by_yoshiyaki-d9xldr4.jpg" />
+    <None Include="Resources\ocarina_of_time_logo_by_blueamnesiac-d7f83kw.png" />
+    <None Include="Resources\albw_hylian_shield_v2_by_blueamnesiac-d7harvu.png" />
+    <None Include="Resources\banjo_kazooie_logo_3d_render_by_dreams_n_nightmares-d603urg.png" />
+    <None Include="Resources\banjo_kazooie_and_yooka_laylee_by_banjo2015_d8rwds_by_princesseninka-daihcs0.png" />
+    <None Include="Resources\52b8fb58-017b-4273-adaa-f3cb823529b0.jpg" />
+    <None Include="Resources\e234e09b-62b9-4c0b-8cd8-7a2a12134dc2.jpg" />
+    <None Include="Resources\57cd5c59-69fe-4541-ab4e-d604bf5aeb32.jpg" />
+    <None Include="Resources\437ad260-785b-479e-ba1b-0b7b079e4094.jpg" />
+    <None Include="Resources\Diddy_Kong_Racing_logo.png" />
+    <None Include="Resources\1506865150998.png" />
+    <None Include="Resources\8ce6bc0a-553c-4af5-8d3d-126c5ae1dc22.jpg" />
+    <None Include="Resources\24d7a36c-3b0b-4eb4-a201-3075cf91ad9c.jpg" />
+    <None Include="Resources\502e9319-c887-453f-a291-6852a334d657.jpg" />
+    <None Include="Resources\726d8929-5015-4a94-ace2-da43e9d935c5.jpg" />
+    <None Include="Resources\2bacd72d-98b0-4ae5-a7a1-a05036c97904.png" />
+    <None Include="Resources\2ea26142-61e5-44fa-883b-e55c22043544.jpg" />
+    <None Include="Resources\0827b971-c2c8-4ba7-9313-0e51e75eb496.jpg" />
+    <None Include="Resources\3d581f4c-0c1b-42d1-bfac-9542b3b4ae98.jpg" />
+    <None Include="Resources\Image1.bmp" />
+    <None Include="Resources\685408c1-698f-4a97-91e6-0aa1fa567241.png" />
+    <None Include="Resources\Donkey_Kong_Artwork_-_Donkey_Kong_64.png" />
+    <None Include="Resources\mario_kart_64_logo_by_ringostarr39-d63zk4p.png" />
+    <None Include="Resources\kisspng-mario-kart-wii-mario-bros-toad-automobile-mechanic-5ada63019181b6.788689181524261633596.png" />
+    <None Include="Resources\Star_Fox_64_logo.png" />
+    <None Include="Resources\9e0.jpg" />
+    <None Include="Resources\Super_Smash_Bros._%28N64%29_logo.png" />
+    <None Include="Resources\Super_Smash_Bros._%28N64%29_logo1.png" />
+    <None Include="Resources\SMash_Icon.png" />
+    <None Include="Resources\Símbolo_Smash.png" />
+    <None Include="Resources\6fbccea3-2146-46bf-bf62-3784e834e1ff.png" />
+    <None Include="Resources\YS_Sniff.gif" />
+    <None Include="Resources\MPLogo.png" />
+    <None Include="Resources\mario-party-icon.png" />
+    <None Include="Resources\Goldeneye_007_Logo.png" />
+    <None Include="Resources\fe7e8b2cd007d2e73870a0579b06c354--requests-post-eye-logo.jpg" />
+    <None Include="Resources\Paper_Mario_Logo.png" />
+    <None Include="Resources\Paper-Mario-icon.png" />
+    <None Include="Resources\Banjo_kazooie_logo.png" />
+    <None Include="Resources\Banjo-TooieLogo.png" />
+    <None Include="Resources\BanjoKazooieTooie5.png" />
+    <None Include="Resources\conker_s_bad_fur_day_by_pooterman-db5dbyb.png" />
+    <None Include="Resources\Conker_Bigger_Bad_Fur_Day_Logo_Final.png" />
+    <None Include="Resources\Perfect_Dark_logo.png" />
+    <None Include="Resources\aa1be922-249b-46df-99f2-459a475d864f.png" />
+    <None Include="Resources\Rare_logo.png" />
+    <None Include="Resources\LOADING.png" />
+    <None Include="Resources\cbc53d45-745b-41a5-a08b-73dd2ad93d1c.jpg" />
+    <None Include="Resources\0af318b0-1ffc-401e-a2e0-8384b6231c8b.jpg" />
+    <None Include="Resources\b4c002be-d127-4c93-afd5-3f656183ea9b.png" />
+    <None Include="Resources\1a175c33-1c72-4524-bc46-9f88b566cb16.jpg" />
+    <None Include="Resources\019cbea1-242c-40b7-b4bd-3e58495ecfaf.jpg" />
+    <None Include="Resources\081547e0-8308-45ab-9462-a28933cc7e7a.jpg" />
+    <None Include="Resources\8c1a9e22-0d0d-4e44-a32e-b50199df8a55.jpg" />
+    <None Include="Resources\1dd78885-5737-4671-9fda-91196de36818.png" />
+    <None Include="Resources\81c03bcd-6311-4116-9b38-ed762744e933.jpg" />
+    <None Include="Resources\07501be2-2019-40df-9043-2c393317d7e0.jpg" />
+    <None Include="Resources\384da923-15ea-44f2-9d07-16c996b63aaa.png" />
+    <None Include="Resources\47d92511-6554-49ca-ab1c-c5986d05db16.jpg" />
+    <None Include="Resources\2358dcbf-dac9-4651-b396-f55cee9790b0.jpg" />
+    <None Include="Resources\18e0af45-5df8-4867-b37a-13cda3e3a057.png" />
+    <None Include="Resources\8aa352d1-899d-4e1a-8236-d1caf2e50ed2.jpg" />
+    <None Include="Resources\fb6412ac-5bcc-43ce-9fd2-82b6f7ed3ff3.jpg" />
+    <None Include="Resources\SuperMarioWorld_Logo.png" />
+    <None Include="Resources\super_mario_world_by_mestrenorax.png" />
+    <None Include="Resources\Super_Metroid_logo.png" />
+    <None Include="Resources\Chrono_Trigger_Logo.png" />
+    <None Include="Resources\300px-ALttP_Logo.png" />
+    <None Include="Resources\16bit_link.gif" />
+    <None Include="Resources\StarFox_lOgO.png" />
+    <None Include="Resources\StarFox_icon.png" />
+    <None Include="Resources\Logo-star-fox-2.png" />
+    <None Include="Resources\StarFoxSymbolSSBV.png" />
+    <None Include="Resources\Super_Mario_World_2_Yoshi%27s_Island_Logo.png" />
+    <None Include="Resources\Retro-Flower-Yoshi-icon.png" />
+    <None Include="Resources\Super-Mario-Kart-Logo.png" />
+    <None Include="Resources\mario_kart_icon_by_betatus-d6th2q4.png" />
+    <None Include="Resources\Super_Mario_RPG_Logo.png" />
+    <None Include="Resources\mario.gif" />
+    <None Include="Resources\mario1.gif" />
+    <None Include="Resources\mega_man_x_logo_by_ringostarr39-d8bs36r.png" />
+    <None Include="Resources\megaman_x_icon_by_xxsh4kzxx-d5h0znk.gif" />
+    <None Include="Resources\Donkey_Kong_Country_logo.png" />
+    <None Include="Resources\Dokey-Kong-Country-donkey-kong-1101000_213_236.gif" />
+    <None Include="Resources\Donkey_Kong_Country_2_Diddy_Kong_Quest.png" />
+    <None Include="Resources\MTO_Donkey_Kong_Icon.png" />
+    <None Include="Resources\5331305289b6807640009bd6b4c89d0a.png" />
+    <None Include="Resources\index.jpeg" />
+    <None Include="Resources\com.stam.guidehervestmoon.png" />
+    <None Include="Resources\Secret_of_Mana_Logo_Transparent.png" />
+    <None Include="Resources\secret_of_mana___circle_by_taricalmcacil-d2f6am2.png" />
+    <None Include="Resources\Super_punch_out_logo_by_ringostarr39-d7nnm37.png" />
+    <None Include="Resources\Punch-Out!!_Universe_Icon.png" />
+    <None Include="Resources\F-Zero_logo.png" />
+    <None Include="Resources\F-Zero_icon.png" />
+    <None Include="Resources\f_zero__snes__by_pooterman-dangsju.png" />
+    <Content Include="RetroArch\avcodec-57.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\avformat-57.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\avutil-55.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\bearer\qgenericbearer.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\cg.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\cgD3D9.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\cgGL.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\cores\mupen64plus_libretro.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\cores\snes9x_libretro.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\iconengines\qsvgicon.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\imageformats\qgif.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\imageformats\qicns.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\imageformats\qico.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\imageformats\qjp2.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\imageformats\qjpeg.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\imageformats\qmng.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\imageformats\qsvg.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\imageformats\qtga.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\imageformats\qtiff.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\imageformats\qwbmp.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\imageformats\qwebp.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\libass-9.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\libbluray-2.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\libbz2-1.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\libcelt0-2.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\LIBEAY32.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\libexpat-1.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\libffi-6.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\libfontconfig-1.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\libfreetype-6.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\libfribidi-0.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\libgcc_s_seh-1.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\libglib-2.0-0.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\libgmp-10.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\libgnutls-30.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\libgraphite2.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\libgsm.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\libharfbuzz-0.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\libhogweed-4.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\libiconv-2.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\libicudt58.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\libicuin58.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\libicuuc58.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\libidn2-0.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\libintl-8.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\libjasper-4.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\libjpeg-8.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\liblcms2-2.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\liblzma-5.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\libmng-2.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\libmodplug-1.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\libmp3lame-0.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\libnettle-6.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\libogg-0.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\libopenal-1.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\libopencore-amrnb-0.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\libopencore-amrwb-0.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\libopenjp2-7.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\libopus-0.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\libp11-kit-0.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\libpcre-1.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\libpcre2-16-0.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\libpng16-16.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\librtmp-1.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\libspeex-1.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\libtasn1-6.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\libtheoradec-1.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\libtheoraenc-1.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\libtiff-5.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\libunistring-2.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\libusb-1.0.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\libvorbis-0.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\libvorbisenc-2.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\libvpx-1.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\libwavpack-1.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\libwebp-7.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\libwebpdemux-2.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\libwebpmux-3.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\libwinpthread-1.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\libx264-155.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\libx265.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\libxml2-2.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\platforms\qwindows.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\Qt5Core.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\Qt5Gui.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\Qt5Network.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\Qt5Svg.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\Qt5Widgets.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\retroarch.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\SDL2.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\SSLEAY32.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\styles\qwindowsvistastyle.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\swresample-2.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\swscale-4.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\xvidcore.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="RetroArch\zlib1.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="website_3l4_icon.ico" />
+    <None Include="Resources\Black on Transparent.png" />
+    <None Include="Resources\website.png" />
+    <None Include="Resources\0f633ee3-5665-4128-a28b-9dfad23db4ff.jpg" />
+    <None Include="Resources\0e544972-3ac4-47d4-8c7a-eadc1bd1020f.jpg" />
+    <None Include="Resources\396e4974-d018-4d02-8ec7-3c2759ef5843.jpg" />
+    <None Include="Resources\5e7af8c2-be30-4a7a-850b-c48461490cf4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="RetroArch\assets\wallpapers\" />
+    <Folder Include="RetroArch\assets\xmb\monochrome\png\" />
+    <Folder Include="RetroArch\cheats\Mupen64Plus OpenGL\" />
+    <Folder Include="RetroArch\cheats\Snes9x\" />
+    <Folder Include="RetroArch\config\record\" />
+    <Folder Include="RetroArch\config\remaps\" />
+    <Folder Include="RetroArch\config\Snes9x\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,1188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Retrobit.Games.exe" version="1.6.0.5" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="website_3l4_icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Retrobit.Games" version="1.0.0.0" publicKeyToken="38D2359E591222BC" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Retrobit.Games.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BCrypt.Net-Next.StrongName.dll" size="24064">
+      <assemblyIdentity name="BCrypt.Net-Next.StrongName" version="3.1.0.0" publicKeyToken="1E11BE04B6288443" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>KeH3grqQ52U5oremjekhvpZz6hwiJlRLBm36P+j744g=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="mysql.data.dll" size="403968">
+      <assemblyIdentity name="MySql.Data" version="6.10.7.0" publicKeyToken="C5687FC88969C44D" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>GBDleX4JPmpqcWIHBaEZQzfkRPC835ra/VHQXmsE50Y=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Retrobit.Games.exe" size="26751944">
+      <assemblyIdentity name="Retrobit.Games" version="1.0.0.0" publicKeyToken="38D2359E591222BC" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>NiqOdn+rKYOHMMmHAW5FoIKL1lqwNhIDcZ8p42x+jEM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="index_Q3I_icon.ico" size="46211">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>hdpNGn0Xs7o8d2YXt4rXSY6P9ouI494RkvftSjBzWms=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="lotmm.bat" size="75">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ZTeMjf8xGFQcO7/qktskpgnVSLcrVwZwO/yR+Zu/Sb8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="lotoot.bat" size="75">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>O37VUCnk6WSiubfplVVwlBKqBdl5o7UwetIHFMZ8eKA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\avcodec-57.dll" size="13040128">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>1nlxO0DuqFbUj+1aAn9F1O8/gm5SMAclpwi+6P/A3GA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\avformat-57.dll" size="2211840">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>bgg5GuzTjSRbwnBtNp9hxOFCz040m/VVMt0IWgiie1o=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\avutil-55.dll" size="538624">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Oem8lohUVwUtLMM+w2YMSCk7jPXZb5cu3k58+QM5vRE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\bearer\qgenericbearer.dll" size="94720">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ygfvHSVqTaM0vW4nDGolIP36L1xXgGduXk5xeEBTJqc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\cg.dll" size="12211520">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Ekx1gAHdUr1u8E22cP6TshB8fUyZMO7YBbdm8wQY6P0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\cgD3D9.dll" size="1260864">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>7Ov4WN8xGsvUsctIR9n1m3GZMmFhg9fGckkmAsy8hvU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\cgGL.dll" size="439104">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>SWbS8OtkzSgCwi7enuc/OuBT6yS0epur471B298AXK8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\content_history.lpl" size="1486">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>GYNyGCZ7E6tkFUL/kAo+IL6meLZ7jzAkckvsRyOH4dw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\cores\bnes_libretro.dll" size="3322124">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>aXCByERotprMJt64q/s7zpRXMNQQPhOHv2QdZw1JnQ8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\cores\emux_nes_libretro.dll" size="481721">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>DrzMN+ouVez5/1iUbJDg9g8IujwIkczxkDtJvF3yBes=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\cores\gambatte_libretro.dll" size="3497047">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>7RKIZsAckhxcqsMIP+Zgt9V05mB6vCOQ53qVfyCHtDk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\cores\imageviewer_libretro.dll" size="255951">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>cFULkJ6NiORriWHzMn7UCAWrNVo4SuYZ++2tS7r7qyQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\cores\mgba_libretro.dll" size="1482165">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>7FamoRpD1AGof2RLBV7KiZsvH6ObK4O1Ne2ta+U3XT0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\cores\mupen64plus_libretro.dll" size="5484247">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>669Wmo0wU9ax1Jdi5MoVDqx1Om1/Dt0IYJgzCsTyJmk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\cores\parallel_n64_libretro.dll" size="1480704">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2KHGJ5tgmZwTEceg0Hzp2egzcG0wh27jDZ6Z1x1bCrg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\cores\retrobit_nes.dll" size="4838820">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>qZTVemkyRcZOp8TZnYIWxB712VcDQNRSMja4u2PSTKo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\cores\snes9x_libretro.dll" size="3036160">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>iGqjZfWN/0DJwiVVoM9t7NyoMq83jh07V+dlHcX6ZN8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\iconengines\qsvgicon.dll" size="39936">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>LClwJj4o9STzftMaExOXw1zji9Mj0zvDCTx0Yr3DC90=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\imageformats\qgif.dll" size="34816">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>EFMCMGXMexwnCHOqFaWB+ltsMPnYmjvNMtoNSJUosy4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\imageformats\qicns.dll" size="44032">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>z0FmloB7PK3aR5RJNRPrl5+UE7kPdsZyB9DIa9fpLBo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\imageformats\qico.dll" size="32256">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>4ZNP+a+RNWb0Jd8zHtJaPHJovsd8xtxk55xLBnGi2Yg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\imageformats\qjp2.dll" size="34816">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>yQzvj84OgttiZrwKWP/dy0G+7U7dYONFpR5dottTVlI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\imageformats\qjpeg.dll" size="42496">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>PCqcDtQJeQ8Flre/98wjanz4UAcynt5bNfztMVHGCVs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\imageformats\qmng.dll" size="27648">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rrKSlGnMrCJ6YLuGRgUB7B3p7eS4n4Oxolo182e+E2s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\imageformats\qsvg.dll" size="26112">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>RiSugd+YoslmVnXfYkpz61PP8LYkWc0YhLYcJm12wjg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\imageformats\qtga.dll" size="25088">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+BQIhdwl5shCiwdLkeydb/lwuJSW9zaZCbZr+Sgz1sg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\imageformats\qtiff.dll" size="35840">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>JogcW4jTFmI8aV2RWXNNxpTvG2dPMVKBgR0GgNSeYNk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\imageformats\qwbmp.dll" size="25088">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>SlnetY+3SFyyBH8vKgc5IO/l7WbjTW8kV6Iufw/Fmso=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\imageformats\qwebp.dll" size="27648">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>cbrWFPJyNAfJP8D6OeIFs27R5kwhxkx5lDA1hGBujfk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\libass-9.dll" size="283477">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>DIM2jWI3I7+FCXlg7OHzUeWCJwtSsgGJFQX8FGlLdyA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\libbluray-2.dll" size="317477">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>F9nD78Re6e/+paMBchhl18nN3LW09gaQ/N8h4BY48fw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\libbz2-1.dll" size="74400">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zegreFJLqDupR0NBeIPgPjMRcTrAr4e1D1vAM1xbd7Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\libcelt0-2.dll" size="112939">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>AtGowUb8rUmj+GV+81K4THi5BHzJtRQglb6o7jKUP24=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\LIBEAY32.dll" size="2349170">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Fz5qjgtV+20PLNziOxFW57EwenAKsqbFRGUi18izrEk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\libexpat-1.dll" size="219464">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>jb8GG/OkErpjitibgP2GcgQ3JUbARVs0WoXZVcY8x9g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\libffi-6.dll" size="34176">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>B37ZWc2asb+Pni7SSKDLZJKhj9K6KD9SiWElQS6tEh0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\libfontconfig-1.dll" size="320935">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>T5a2hWsCROwPyP1NHpJUoEIwx9eS8QzXTBkjO/JxwHY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\libfreetype-6.dll" size="685343">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>q4No4KAY8fIjqVQfuws/cZ30e6TewxJetFU2u8z9sxQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\libfribidi-0.dll" size="129950">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>3n5aEE5Ldm8DGCxktwIyynNCHp8hlXWjAs3OWL+L2ak=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\libgcc_s_seh-1.dll" size="83088">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>TkMVmmfaIaLvCK2eSVSTzigZXJkCtIcZxpSsYsfiBmA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\libglib-2.0-0.dll" size="1133029">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>nVl/Bf3j81L7xRO8+VgeUnhzlqrezBCckaWM/x9Jyns=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\libgmp-10.dll" size="509691">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2qCi0yE0oQirOvOImdi2z0v8dePR18OokKJc7dAYr6E=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\libgnutls-30.dll" size="1333999">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>bC385L7SV6YzXqzInAamRxD4rs+AjAvRPXDg+7X5hCA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\libgraphite2.dll" size="226591">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2Wj3LZ0P0oMxFIRS0CIm4uWvUaXYmtP+X3waZIPTmh8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\libgsm.dll" size="57891">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>mzIHlxI+LQzy9KnmWTN21Fnrlm/4Ci+FgMUZfbiuWKQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\libharfbuzz-0.dll" size="688501">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>XYU1bXhuwZUHnxW4ueANG+p8+ECn9ITm9G0JYgdzdus=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\libhogweed-4.dll" size="210274">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>h+x4+lRlBn76TWjM5MJz8pe42Fx+YdAhCf9l8q2xw7Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\libiconv-2.dll" size="1056753">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>HRB2w20NK3g2z5/5SSEuMTO9sy24iF0v3KIWU6rP7pU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\libicudt58.dll" size="26230434">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>IH1N57x/84pPVQ7YjF38xjUdIHEMIat846XLDZYVzn0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\libicuin58.dll" size="2735264">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>APvXVpLVvSrybYR8kp5N24dYILO0F1KxFpWbJe4t4KU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\libicuuc58.dll" size="1796044">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/DnnSz66qvKeDFxla7y3Xc3RIJYD2KShifKzY7cKnx8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\libidn2-0.dll" size="153221">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>H01/zDEBOBIq3BI39/vkZL8vLYc9XJSw2zQ679Ux5Aw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\libintl-8.dll" size="133779">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Hzm+XwfDL2pEXlEGXbziJ924P0/biZ6KXc/LuIHuwII=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\libjasper-4.dll" size="456389">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>yOlSfWYjuN8mE5mJ/0sWmlpdnG6ETb09zkDblk1z8fs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\libjpeg-8.dll" size="466562">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>KvJKbdf2DPQlvg51dYqbdOuCOEJjYLlsdCRyUKIluGE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\liblcms2-2.dll" size="374970">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>cicaIhR6wjmpF6pLJSfZY0g7R1OsdNlE4cJkyGKig/s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\liblzma-5.dll" size="153325">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>p6797Olwu+MJS19yXyHLHlqBNNgwAx/9uxLwsg+lD8U=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\libmng-2.dll" size="490761">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>E9W5LB7QSBHAsB97tnfDsUoDu0lCdAp0+6ViH6do8Ek=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\libmodplug-1.dll" size="361138">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>CGUc+oEWEu528SZpJ0qGuKvvaOeUlkdLW/d9A/BiXIM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\libmp3lame-0.dll" size="341587">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>pKdtRUWUG5tD+Sya3xMZNC95XS5g0NmUjkAM3Vqd9x8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\libnettle-6.dll" size="237131">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>06mr6P4OdJuMO2YqKNj6fdloPMPBG99E7MLnbggERuA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\libogg-0.dll" size="30497">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>sX0r7Fno3HN3jtY0/IDWIjy/5fKWIHnFLkZHdsEzwuw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\libopenal-1.dll" size="606673">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>oDEqBURTajJSKDZbIM6yhDq3d53mVqripS4Tflw2ECY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\libopencore-amrnb-0.dll" size="178993">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>cWnA17t1EhlkY7Tz5dZ0iRfCcujVs02xlHUJZM0SvJM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\libopencore-amrwb-0.dll" size="88880">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>V7sWXutB0uutqY9Bi7PQzNcusoqqBvmdSSmXETmb50o=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\libopenjp2-7.dll" size="402172">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>coytvKHpPEjl5Cxv+KZcLUu/FkGLelftlHOmOCVypkM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\libopus-0.dll" size="344022">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>G+YqezwLaOy1JMAuNh+PiLEgUgTWDrk2Ob9rwspXweo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\libp11-kit-0.dll" size="1008289">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>qtZPWiFBWuyZ8m0VoH8HVu5JQ/kAPy2yr2HoeV33mew=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\libpcre-1.dll" size="285375">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>p6htLKpy4+9qCFLzgKndXvoi5KY+CC12I3ctbUMo8uY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\libpcre2-16-0.dll" size="304319">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>oeoRI/B4O/2RJinFliAQ4aC0IpgP9BGn+ActWR/nsIY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\libpng16-16.dll" size="231566">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xoW1eKohJqc0daIwX9zx5+fXLBltJ4UtplUscTo2j1Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\librtmp-1.dll" size="169505">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>mYdIRbmKdpUOTibfFetd9zW+ZZ1P99Gw4WzOxc8prpU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\libspeex-1.dll" size="137133">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>KIoZOdWDg/+C8VER4yu4OQhq+OtBGIUxzYd0EA7hs94=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\libstdc++-6.dll" size="1435729">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>9KkDn+rqiXk+7iNQAvbuXIT+jtwhYFaxhKVbkFapQF8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\libtasn1-6.dll" size="101502">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>3MZQcHx7cVFNyozeGoZ+TehgVKOm7a0bWFeEUZu1jQM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\libtheoradec-1.dll" size="110849">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>I5LcUIZLdwaa+Mvzcd1/p0TaL0/fZfNQ0MxvZq1RTZo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\libtheoraenc-1.dll" size="262659">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+YT2ktyrKvwd9S2cJi2AT08rJsO/VtlysG8lH4h72/c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\libtiff-5.dll" size="477855">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>saV53SD5suZcoj0aPr/QM/AtOlsNBTuEbdXnfH8O/q0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\libunistring-2.dll" size="1880180">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>yE/eIYxMiaVJNKS+JP2wfGVPJ3mJ6TEjOANJyTtQu74=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\libusb-1.0.dll" size="195447">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+wDdm9duFauCpJQpeSCbNhZ6NiafNimChHJAntFd7iY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\libvorbis-0.dll" size="187388">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>x6cGaoOswExxQYzZ343MtXy+Jo1f49QSgKxBmQV+sfM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\libvorbisenc-2.dll" size="582398">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>lnfUuIdlYZ5IEVjlKPa8mCLCHoQpedNCkl5YtPD/8g0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\libvpx-1.dll" size="2575147">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>oGSYWAoVf+nyXkFobwlGJPSJeUlwhRBh3k/ASVPQNLs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\libwavpack-1.dll" size="201245">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>d/WIokPGITOWCTw+viQ0ESvW8Iw0okfNi+NpE0ws/kY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\libwebp-7.dll" size="439520">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ZjOzpKLFXDG35Cb67vVi5V3cWxZj562Gy4V2rfoRs30=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\libwebpdemux-2.dll" size="26564">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>tY0edmY66D4KgKnE1TpGjwocEwkQ59QVN6yqaeHzvhs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\libwebpmux-3.dll" size="75487">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>qdTKFiwGJmB65hrYVeH57jfFNxFpqX8F1dVrGDxocV8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\libwinpthread-1.dll" size="57317">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>44KfjLnwgbyzuBDbAhC2lA+zanO4Q6W6F0TnlmW95f8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\libx264-155.dll" size="1987184">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>9nLyu0UXDeIa33iG9n1CEfQoazCokJL6r2KK5chNwl4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\libx265.dll" size="4839793">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>UvFw8m58Biuv6U2AY+nhp+6swBYT3GDIGc3zjWZvvnI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\libxml2-2.dll" size="1312107">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>AMVES2l+79GjhNOZ6T0FN2jpYEHOo6t/K2mWSVux3mc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\platforms\qwindows.dll" size="926720">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>kkn7aFtpgEF+xoMbTNkS3aWy9+Mm+eN/ok5HYMx3GNo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\Qt5Core.dll" size="5113344">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6wUBenYPcBj8bJHRiHcTkkxFLzd7E+h+JV9sliC9gSU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\Qt5Gui.dll" size="5716992">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2CISKZVd75axuw+JkrZdNTWaEt5CbW0pe4dvvwa6Dns=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\Qt5Network.dll" size="1553408">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>hhMTqnJRKSmrr2Cr6oJ17C+DXJNoG4sD7td61Z1P4Vo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\Qt5Svg.dll" size="301056">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>sEaCYKQfGzNdgDy2YYQOxkQ5jwNoUP9a83uYm+JIArs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\Qt5Widgets.dll" size="5565952">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>pXUY/R8fL7fINvMFBvXOOOyHkJyZus8Bp3B46WVhOUA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\retroarch.cfg" size="97108">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>kkLRDkaWBN9l/BCwj7Yf4TcV/PbVhrseyvIVomvcJtI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\retroarch.default.cfg" size="29564">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>v6YGpLjdDShIwqFXL5bAOGFnLtw5nE1FJVa6eug1ON4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\retroarch.exe" size="9912832">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>zOugT2mp6pIL1QPZrJpRBfO5xG7yrypA0ZQP7lcckzQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\retroarch-core-options.cfg" size="2424">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>mq35hrsc8QRyareE6TU1eYa2E1H4OCTgiqnwy8gXEoU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\roms\test.smc" size="0">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\saves\test.srm" size="0">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\screenshots\Controls-N64.jpg" size="47301">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>o7TgqwhVuMauNwJlxW+kgbBtzQW5KxLYreGUzxUvjDI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\SDL2.dll" size="984924">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Jrquz478NEDgqS9BUZYnqUs8R9YocMoEMj20wJu6iQQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\SSLEAY32.dll" size="422246">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rFzNtbFJ7lA7r8hgY8gaTpbmo192yTkgPuZKujbksMI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\states\test.srm" size="0">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\styles\N64.jpg" size="47301">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>o7TgqwhVuMauNwJlxW+kgbBtzQW5KxLYreGUzxUvjDI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\styles\qwindowsvistastyle.dll" size="163840">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>k7RkAgS6SUKzDbKUq6csiUu/62BY8V2ZDToZocw3Dnw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\swresample-2.dll" size="128512">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>MM5khlRVzY+hNaffA16Tfru38BNDojmQ2QBur+nI47g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\swscale-4.dll" size="530944">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ybJPr5XJT+5fmgb6GQFcdVgOY15OY3XzzZMJLuarQz4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\system\Mupen64plus\cache\THE LEGEND OF ZELDA_HIRESTEXTURES.htc" size="146055871">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>MPXpFXBuNNOYwHWuDx5/hO1/eWxQAL84fXYUU2G8G3s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\system\Mupen64plus\cache\ZELDA MAJORA'S MASK_HIRESTEXTURES.htc" size="146795150">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ZVDOHPuXd7QjRU4d7kUjBi5ipBm9IUxJvlCzW2Vs2i0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\system\Mupen64plus\mupen64plus.ini" size="430657">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2UoZoBzSc8gatk8tf5bPT/nsbKt94/0i6sIQdmWDqcs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\system\Mupen64plus\shaders\GLideN64.356c268e.OpenGL.shaders" size="125924">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>TuwKJygxATYBEFbkN+yTgsJzbY6Nw/Uzot6c2apxeaM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\test.smc" size="524800">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>1wycdxatEsZ0/H3XRHNqpI1Ne0I39YBmvmIP2iYCSHI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\xvidcore.dll" size="700821">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>NpDjJeukh0yUrAW6DkilhVElSQSsWjRPP37DJH2+SBo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="RetroArch\zlib1.dll" size="93830">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>TneWElPPGuCYHX8zhPUnjad8r6PXdlUNgQwcQ/c7ztQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Retrobit.Games.exe.config" size="256">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>fUsHI0NintHnjY1tz8yxZAK0I1GDiKGlZ99slD6wjGQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="website_3l4_icon.ico" size="19614">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>v7pf5fWYWLbgC4SJ9M5YEIis4BIMcVmTiubd51bLvY4=</dsig:DigestValue>
+    </hash>
+  </file>
+</asmv1:assembly>

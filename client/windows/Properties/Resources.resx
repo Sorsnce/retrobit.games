@@ -1,0 +1,802 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="38_-_Yoshi_games_play_fun_-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\38_-_Yoshi_games_play_fun_-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Logoarm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logoarm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Conker_Bigger_Bad_Fur_Day_Logo_Final" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Conker_Bigger_Bad_Fur_Day_Logo_Final.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9d530b2c-f042-4dbd-b8be-ff1a9914bc71" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9d530b2c-f042-4dbd-b8be-ff1a9914bc71.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1200px-245Suicune" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1200px-245Suicune.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Donkey_Kong_Country_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Donkey_Kong_Country_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8c1a9e22-0d0d-4e44-a32e-b50199df8a55" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8c1a9e22-0d0d-4e44-a32e-b50199df8a55.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kisspng-mario-kart-wii-mario-bros-toad-automobile-mechanic-5ada63019181b6.788689181524261633596" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kisspng-mario-kart-wii-mario-bros-toad-automobile-mechanic-5ada63019181b6.788689181524261633596.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pyellow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pyellow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_57cd5c59_69fe_4541_ab4e_d604bf5aeb32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\57cd5c59-69fe-4541-ab4e-d604bf5aeb32.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dr_Mario_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dr_Mario_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="081547e0-8308-45ab-9462-a28933cc7e7a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\081547e0-8308-45ab-9462-a28933cc7e7a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4a036083-b5c7-4d0e-8d33-d45a567f34b7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4a036083-b5c7-4d0e-8d33-d45a567f34b7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Castlevania_logo_color" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Castlevania_logo_color.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Super_Metroid_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Super_Metroid_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="300px-TAoL_Black_Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\300px-TAoL_Black_Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MTO_Donkey_Kong_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MTO_Donkey_Kong_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="019cbea1-242c-40b7-b4bd-3e58495ecfaf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\019cbea1-242c-40b7-b4bd-3e58495ecfaf.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mario1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mario1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="c712dd7d-db08-4b1e-a057-927fe054cee4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\c712dd7d-db08-4b1e-a057-927fe054cee4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="majora_s_mask_logo_by_blueamnesiac_d7f83th" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\majora_s_mask_logo_by_blueamnesiac-d7f83th.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fb6412ac-5bcc-43ce-9fd2-82b6f7ed3ff3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fb6412ac-5bcc-43ce-9fd2-82b6f7ed3ff3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Super_Smash_Bros._(N64)_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Super_Smash_Bros._(N64)_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="The_Legend_of_Zelda_-_Link's_Awakening_DX_(logo)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\The_Legend_of_Zelda_-_Link's_Awakening_DX_(logo).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3fdfea06-890f-49b7-9a3e-248fea26def2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3fdfea06-890f-49b7-9a3e-248fea26def2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Metroid_Title" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Metroid_Title.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Super_Mario_Bros._Logo.svg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Super_Mario_Bros._Logo.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tetris-worlds" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tetris-worlds.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SurvivalKids_Title_EU" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SurvivalKids_Title_EU.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2bacd72d_98b0_4ae5_a7a1_a05036c97904" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2bacd72d-98b0-4ae5-a7a1-a05036c97904.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_2ea26142_61e5_44fa_883b_e55c22043544" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2ea26142-61e5-44fa-883b-e55c22043544.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Donkey_Kong_Artwork_-_Donkey_Kong_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Donkey_Kong_Artwork_-_Donkey_Kong_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Donkey_Kong_arcade_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Donkey_Kong_arcade_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_0f633ee3_5665_4128_a28b_9dfad23db4ff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0f633ee3-5665-4128-a28b-9dfad23db4ff.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cbc53d45-745b-41a5-a08b-73dd2ad93d1c" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cbc53d45-745b-41a5-a08b-73dd2ad93d1c.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mario" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mario.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="41448c94-cc89-41a7-b77d-673701608517" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\41448c94-cc89-41a7-b77d-673701608517.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Logo-star-fox-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logo-star-fox-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6fbccea3-2146-46bf-bf62-3784e834e1ff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6fbccea3-2146-46bf-bf62-3784e834e1ff.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Secret_of_Mana_Logo_Transparent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Secret_of_Mana_Logo_Transparent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="a9e792fb75ef894" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\a9e792fb75ef894.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StarFoxSymbolSSBV" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StarFoxSymbolSSBV.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1280px_NES_logo_svg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1280px-NES_logo.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6cb6058b-0215-47cf-9691-af3e78ce23a6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6cb6058b-0215-47cf-9691-af3e78ce23a6.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SuperMarioWorld_Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SuperMarioWorld_Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Wario_SR_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Wario_SR_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="35a3d0f0-461d-4ee0-8afa-df5d1b753a99" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\35a3d0f0-461d-4ee0-8afa-df5d1b753a99.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="eff8a63e-272b-47fc-8a2a-d6905df2b330" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\eff8a63e-272b-47fc-8a2a-d6905df2b330.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0af318b0-1ffc-401e-a2e0-8384b6231c8b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0af318b0-1ffc-401e-a2e0-8384b6231c8b.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Punch-Out!!_Universe_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Punch-Out!!_Universe_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DK_DK" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DK_DK.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mario_and_Luigi_22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mario_and_Luigi_22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="a530156e-0ecc-48d5-8920-22f6c4b7db8e" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\a530156e-0ecc-48d5-8920-22f6c4b7db8e.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2gsjgna1uruvUuS7ndh9YqVwYGPLVszbFLwwpAYXZyHFKtHTof7Xzn6JDKEZ5WFpZZ26hNuanYJ4pLfv1ttVPV2pt6YKTbofJWoZAqvj7KqH5ayQDb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2gsjgna1uruvUuS7ndh9YqVwYGPLVszbFLwwpAYXZyHFKtHTof7Xzn6JDKEZ5WFpZZ26hNuanYJ4pLfv1ttVPV2pt6YKTbofJWoZAqvj7KqH5ayQDb.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Paper_Mario_Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Paper_Mario_Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kirby's_Adventure_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kirby's_Adventure_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kisspng_window_princess_peach_stained_glass_super_mario_64_watercolor_stain_5ac9f779d131d0_8647173515231855298569" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kisspng-window-princess-peach-stained-glass-super-mario-64-watercolor-stain-5ac9f779d131d0.8647173515231855298569.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="setting_512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\setting-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="f50ff361-ed6d-4877-ab98-f85c2037efc3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\f50ff361-ed6d-4877-ab98-f85c2037efc3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Logo_EN_-_Pokemon_Crystal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logo_EN_-_Pokemon_Crystal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Donkey_Kong_Country_2_Diddy_Kong_Quest" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Donkey_Kong_Country_2_Diddy_Kong_Quest.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SMash_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SMash_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Banjo_kazooie_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Banjo_kazooie_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Super-mario-bros-3-seeklogo_com" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Super-mario-bros-3-seeklogo_com.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1f9e7bad-5692-49b8-a438-232abe866541" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1f9e7bad-5692-49b8-a438-232abe866541.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="com.stam.guidehervestmoon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\com.stam.guidehervestmoon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="81c03bcd-6311-4116-9b38-ed762744e933" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\81c03bcd-6311-4116-9b38-ed762744e933.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="CastlevaniaSymbol" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\CastlevaniaSymbol.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Símbolo_Smash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Símbolo_Smash.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Oracle_of_Ages_Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Oracle_of_Ages_Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MPLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MPLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_3d581f4c_0c1b_42d1_bfac_9542b3b4ae98" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3d581f4c-0c1b-42d1-bfac-9542b3b4ae98.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="47d92511-6554-49ca-ab1c-c5986d05db16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\47d92511-6554-49ca-ab1c-c5986d05db16.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banjo_kazooie_and_yooka_laylee_by_banjo2015_d8rwds_by_princesseninka_daihcs0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\banjo_kazooie_and_yooka_laylee_by_banjo2015_d8rwds_by_princesseninka-daihcs0.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="nintendo_64_logo_1024x308" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\nintendo-64-logo-1024x308.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="07501be2-2019-40df-9043-2c393317d7e0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\07501be2-2019-40df-9043-2c393317d7e0.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Super_Mario_Bros._Logo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Super_Mario_Bros._Logo.svg1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Star_Fox_64_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Star_Fox_64_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="YS_Sniff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\YS_Sniff.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="excitebike_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\excitebike_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ice_Climber_Classics" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ice_Climber_Classics.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ph03nyx-Super-Mario-Yoshis-Egg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ph03nyx-Super-Mario-Yoshis-Egg.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bf7969a7-a0dc-4e94-87f0-5edc8996538c" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bf7969a7-a0dc-4e94-87f0-5edc8996538c.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cf86a691-49bc-448d-b8d2-335f328449f0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cf86a691-49bc-448d-b8d2-335f328449f0.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1200px-ALttP_Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1200px-ALttP_Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pokemon_FireRed_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pokemon_FireRed_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="300px-ALttP_Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\300px-ALttP_Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mario_and_Luigi_Superstar_Saga_Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mario_and_Luigi_Superstar_Saga_Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tumblr_oa20wbh97D1uot2dco3_500" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tumblr_oa20wbh97D1uot2dco3_500.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="33aaa5f8-d8bb-4cf8-b7fd-b39a5759b53f.png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\33aaa5f8-d8bb-4cf8-b7fd-b39a5759b53f.png.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Super_Smash_Bros1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Super_Smash_Bros._(N64)_logo1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Punchout_Arcade_Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Punchout_Arcade_Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="e96de88c-338a-490b-a664-dea3a636cf1c" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\e96de88c-338a-490b-a664-dea3a636cf1c.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="link_sprite_cutout" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\link_sprite_cutout.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="335880f8-1db7-4b9c-b918-0d168d01fec5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\335880f8-1db7-4b9c-b918-0d168d01fec5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="F-Zero_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\F-Zero_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1280px_SNES_logo_svg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1280px-SNES_logo.svg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="7f1cd22b-5f8e-47bd-b5ad-eb3ec0bf2a13" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\7f1cd22b-5f8e-47bd-b5ad-eb3ec0bf2a13.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="045d5800-989c-4bcd-9668-af30a204a5d3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\045d5800-989c-4bcd-9668-af30a204a5d3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_8ce6bc0a_553c_4af5_8d3d_126c5ae1dc22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8ce6bc0a-553c-4af5-8d3d-126c5ae1dc22.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bc942bdf-d6a2-4292-8edd-4eb44efee8fd.jpg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bc942bdf-d6a2-4292-8edd-4eb44efee8fd.jpg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mario64bp_by_yoshiyaki_d9xldr4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mario64bp_by_yoshiyaki-d9xldr4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_issue15supermariobros3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_issue15supermariobros3.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pokemon_go_play_game_charcter-512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pokemon_go_play_game_charcter-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="96d86e0c-e80f-43f3-82f9-3fbadf389ab0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\96d86e0c-e80f-43f3-82f9-3fbadf389ab0.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1dd78885-5737-4671-9fda-91196de36818" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1dd78885-5737-4671-9fda-91196de36818.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fd6c1956ba89b2cdbc348d810071cd57_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fd6c1956ba89b2cdbc348d810071cd57_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2358dcbf-dac9-4651-b396-f55cee9790b0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2358dcbf-dac9-4651-b396-f55cee9790b0.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Kid_Icarus_Universe_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Kid_Icarus_Universe_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Banjo-TooieLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Banjo-TooieLogo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Sega_genesis_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sega_genesis_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="F-Zero_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\F-Zero_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="PokémonEmerald" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\PokémonEmerald.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="98cebfcf-1a08-435f-bdcc-27e47073f205" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\98cebfcf-1a08-435f-bdcc-27e47073f205.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="kisspng_computer_icons_shutdown_button_logo_power_5abd365d4a86d2_7214086015223496613053" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kisspng-computer-icons-shutdown-button-logo-power-5abd365d4a86d2.7214086015223496613053.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_24d7a36c_3b0b_4eb4_a201_3075cf91ad9c" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\24d7a36c-3b0b-4eb4-a201-3075cf91ad9c.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Yoshi_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Yoshi_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Super_mario_bros_2_logo_by_ringostarr39-d5c6owz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Super_mario_bros_2_logo_by_ringostarr39-d5c6owz.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_437ad260_785b_479e_ba1b_0b7b079e4094" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\437ad260-785b-479e-ba1b-0b7b079e4094.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="website" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\website.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mario-party-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mario-party-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="055b1d16-43ab-48be-8565-8ccedc8802d5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\055b1d16-43ab-48be-8565-8ccedc8802d5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0f1ff472-a800-471e-b99b-7ce9d672cbbb.jpg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0f1ff472-a800-471e-b99b-7ce9d672cbbb.jpg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="e234e09b_62b9_4c0b_8cd8_7a2a12134dc2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\e234e09b-62b9-4c0b-8cd8-7a2a12134dc2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_5e7af8c2_be30_4a7a_850b_c48461490cf4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5e7af8c2-be30-4a7a-850b-c48461490cf4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="91c408e4833006eb93d33d23587e561e" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\91c408e4833006eb93d33d23587e561e.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mario_kart_icon_by_betatus-d6th2q4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mario_kart_icon_by_betatus-d6th2q4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Red_Nose_Transparent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Red_Nose_Transparent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LOADING" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LOADING.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Mario_Kart_Super_Circuit_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mario_Kart_Super_Circuit_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="c0cfa5ca-0b5a-40e8-a94c-42ff9741e312" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\c0cfa5ca-0b5a-40e8-a94c-42ff9741e312.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ghosts-n-Goblins-Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ghosts-n-Goblins-Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="384da923-15ea-44f2-9d07-16c996b63aaa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\384da923-15ea-44f2-9d07-16c996b63aaa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_0e544972_3ac4_47d4_8c7a_eadc1bd1020f" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0e544972-3ac4-47d4-8c7a-eadc1bd1020f.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="250px-384Rayquaza" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\250px-384Rayquaza.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="metroid-9-320744" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\metroid-9-320744.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4503d0f6-3dad-4dfd-8ab5-54be64130f4d" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4503d0f6-3dad-4dfd-8ab5-54be64130f4d.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="5331305289b6807640009bd6b4c89d0a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\5331305289b6807640009bd6b4c89d0a.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6f4cb84e-43ce-4b42-88dc-593c994377f1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6f4cb84e-43ce-4b42-88dc-593c994377f1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_1506865150998" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1506865150998.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="263b14be-63d3-404a-a35b-7230897a7fcf" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\263b14be-63d3-404a-a35b-7230897a7fcf.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="secret_of_mana___circle_by_taricalmcacil-d2f6am2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\secret_of_mana___circle_by_taricalmcacil-d2f6am2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="b68a54a4-ece1-4f62-a93f-be07b7a61379" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\b68a54a4-ece1-4f62-a93f-be07b7a61379.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="super_mario_world_by_mestrenorax" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\super_mario_world_by_mestrenorax.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Retro-Flower-Yoshi-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Retro-Flower-Yoshi-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dr._Mario_Icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dr._Mario_Icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="metroid-9-3207441" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\metroid-9-3207441.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="685408c1-698f-4a97-91e6-0aa1fa567241" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\685408c1-698f-4a97-91e6-0aa1fa567241.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="aa1be922-249b-46df-99f2-459a475d864f" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\aa1be922-249b-46df-99f2-459a475d864f.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="d54ea3d5-440e-4659-96d5-3f3dd6a123f2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\d54ea3d5-440e-4659-96d5-3f3dd6a123f2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="albw_hylian_shield_v2_by_blueamnesiac_d7harvu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\albw_hylian_shield_v2_by_blueamnesiac-d7harvu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_0827b971_c2c8_4ba7_9313_0e51e75eb496" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0827b971-c2c8-4ba7-9313-0e51e75eb496.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mega_man_x_logo_by_ringostarr39-d8bs36r" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mega_man_x_logo_by_ringostarr39-d8bs36r.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="250px-006Charizard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\250px-006Charizard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="e92fe3421ccfa39212722e984c06e0b490d9f8e3_00" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\e92fe3421ccfa39212722e984c06e0b490d9f8e3_00.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mario_kart_64_logo_by_ringostarr39-d63zk4p" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mario_kart_64_logo_by_ringostarr39-d63zk4p.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mario2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mario.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="6d4eee5b-4a18-426a-8c90-55203923c246" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\6d4eee5b-4a18-426a-8c90-55203923c246.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9e0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9e0.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TLOZ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TLOZ.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="metroidzm_13_hd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\metroidzm_13_hd.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="b4c002be-d127-4c93-afd5-3f656183ea9b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\b4c002be-d127-4c93-afd5-3f656183ea9b.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ph03nyx-Super-Mario-Retro-Flower-Fire-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ph03nyx-Super-Mario-Retro-Flower-Fire-2.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shantae_icons_square_girl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Shantae_icons_square_girl.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="triforce-icon-600x520" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\triforce-icon-600x520.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="8aa352d1-899d-4e1a-8236-d1caf2e50ed2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8aa352d1-899d-4e1a-8236-d1caf2e50ed2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Chrono_Trigger_Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Chrono_Trigger_Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="super-dodgeball-nes-logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\super-dodgeball-nes-logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0e4dd70c-9f9e-4faa-8870-0e433bd4f231" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0e4dd70c-9f9e-4faa-8870-0e433bd4f231.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="76544f7b-a881-4a4a-83ec-721b9bdef3c1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\76544f7b-a881-4a4a-83ec-721b9bdef3c1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Perfect_Dark_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Perfect_Dark_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_502e9319_c887_453f_a291_6852a334d657" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\502e9319-c887-453f-a291-6852a334d657.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BanjoKazooieTooie5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BanjoKazooieTooie5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Super_Mario_RPG_Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Super_Mario_RPG_Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="f_zero__snes__by_pooterman-dangsju" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\f_zero__snes__by_pooterman-dangsju.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Goldeneye_007_Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Goldeneye_007_Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Diddy_Kong_Racing_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Diddy_Kong_Racing_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Wario_Land_3_Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Wario_Land_3_Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_396e4974_d018_4d02_8ec7_3c2759ef5843" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\396e4974-d018-4d02-8ec7-3c2759ef5843.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="banjo_kazooie_logo_3d_render_by_dreams_n_nightmares_d603urg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\banjo_kazooie_logo_3d_render_by_dreams_n_nightmares-d603urg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="punchout_marquee" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\punchout_marquee.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="c5a08c70-9bcd-4cd7-96d7-df2c4f82bc2b" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\c5a08c70-9bcd-4cd7-96d7-df2c4f82bc2b.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_52b8fb58_017b_4273_adaa_f3cb823529b0" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\52b8fb58-017b-4273-adaa-f3cb823529b0.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Super_Mario_64" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Super_Mario_64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3D_Classics_Kid_Icarus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3D_Classics_Kid_Icarus.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="gifs_ninja-gaiden_avatar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gifs_ninja-gaiden_avatar.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TMC_Ezlo_Artwork" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TMC_Ezlo_Artwork.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Super_Mario_World_2_Yoshi's_Island_Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Super_Mario_World_2_Yoshi's_Island_Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_726d8929_5015_4a94_ace2_da43e9d935c5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\726d8929-5015-4a94-ace2-da43e9d935c5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Super-Mario-Kart-Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Super-Mario-Kart-Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="mk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mk.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Black_on_Transparent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Black on Transparent.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="p6z4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\p6z4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="df436972-2e5c-4525-8c0c-82c4b77be5b3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\df436972-2e5c-4525-8c0c-82c4b77be5b3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StarFox_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StarFox_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dokey-Kong-Country-donkey-kong-1101000_213_236" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dokey-Kong-Country-donkey-kong-1101000_213_236.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="16bit_link" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\16bit_link.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="90cf2517-1ef8-49bd-866c-a2d2b7b5d1a4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\90cf2517-1ef8-49bd-866c-a2d2b7b5d1a4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="d772fa65-e0de-409f-b52e-e0e7d65c4fe7" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\d772fa65-e0de-409f-b52e-e0e7d65c4fe7.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Image1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Image1.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Link_and_the_Rod_of_Seasons" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Link_and_the_Rod_of_Seasons.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Paper-Mario-icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Paper-Mario-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="40a6e33a-a1d8-4226-9e9b-5398226156e2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\40a6e33a-a1d8-4226-9e9b-5398226156e2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0e4dd70c-9f9e-4faa-8870-0e433bd4f2311" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0e4dd70c-9f9e-4faa-8870-0e433bd4f2311.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="megaman_x_icon_by_xxsh4kzxx-d5h0znk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\megaman_x_icon_by_xxsh4kzxx-d5h0znk.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="StarFox_lOgO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StarFox_lOgO.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Super_punch_out_logo_by_ringostarr39-d7nnm37" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Super_punch_out_logo_by_ringostarr39-d7nnm37.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1a175c33-1c72-4524-bc46-9f88b566cb16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1a175c33-1c72-4524-bc46-9f88b566cb16.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="67080b03-6fee-4761-adc4-abd87842a4d2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\67080b03-6fee-4761-adc4-abd87842a4d2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="index1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\index.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="f0760be3-acfe-49d0-8084-f6ff2508af2c" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\f0760be3-acfe-49d0-8084-f6ff2508af2c.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="WarioWare_-_Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\WarioWare_-_Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_chat_alert_512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\_chat_alert-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="f5f5ede1330e54b600248c9ac5c88a19" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\f5f5ede1330e54b600248c9ac5c88a19.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="0bdcf9f7-572e-4311-b600-6a7cabdf9a0a" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\0bdcf9f7-572e-4311-b600-6a7cabdf9a0a.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ocarina_of_time_logo_by_blueamnesiac_d7f83kw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ocarina_of_time_logo_by_blueamnesiac-d7f83kw.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="f88916aa-e75c-4f09-bb40-e3ff07665a55" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\f88916aa-e75c-4f09-bb40-e3ff07665a55.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fe7e8b2cd007d2e73870a0579b06c354--requests-post-eye-logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fe7e8b2cd007d2e73870a0579b06c354--requests-post-eye-logo.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Logo-GBC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Logo-GBC.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="18e0af45-5df8-4867-b37a-13cda3e3a057" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\18e0af45-5df8-4867-b37a-13cda3e3a057.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="index" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\index.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="majora_mask" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\majora-mask.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1c8096c5-7af6-4dbd-a7e4-4df98c9c44fb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1c8096c5-7af6-4dbd-a7e4-4df98c9c44fb.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Metroid_Fusion_Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Metroid_Fusion_Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="conker_s_bad_fur_day_by_pooterman-db5dbyb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\conker_s_bad_fur_day_by_pooterman-db5dbyb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Rare_logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rare_logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Wariowarebomb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Wariowarebomb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
