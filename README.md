@@ -19,10 +19,26 @@ Currently RetroBit.Games was designed to allow any users to upload their ROMs to
 
 ![Screenshot of HomePage](https://i.imgur.com/YJc4uVe.png)
 
-Currently users can log into RetroBit.Games via the RetroBit website.
+### Currently users can log into RetroBit.Games via the RetroBit website.
+
 ![Screenshot of Login](https://i.imgur.com/1243aPv.png)
 ![Screenshot of UserPage](https://i.imgur.com/GWSbpJ2.png)
 
-RetroBit.Games supports many different type of ROMs and Platforms.
+### RetroBit.Games supports many different type of ROMs and Platforms.
+
 ![Screenshot of N64](https://i.imgur.com/bPOMinh.png)
 ![Screenshot of SNES](https://i.imgur.com/rf9Irbc.png)
+
+## RetroBit.Games Client
+The following screenshots are captured from the Windows version of the RetroBit.Games client.
+
+![Screenshot of Login Page](https://i.imgur.com/wLhXxIb.png)
+
+### RetroBit.Games Home/Status screen
+
+![Screenshot of Login Page](https://i.imgur.com/VQ5RO9x.png)
+
+### RetroBit.Games supports many different type of ROMs and Platforms.
+
+![Screenshot of N64](https://i.imgur.com/DLg70aI.png)
+![Screenshot of NES](https://i.imgur.com/QTMb9xJ.png)
