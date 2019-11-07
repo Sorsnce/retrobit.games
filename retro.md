@@ -9,7 +9,7 @@ RetroArch
 Windows, Android, or Linux
 ```
 
-### Install Google Drive or Dropbox
+### Install Google Drive, Dropbox or OneDrive
 We recommend following this type of directory structure within Google Drive/Dropbox.
 
 Create the following directories within Google Drive/Dropbox. These directories should be blank at this time.
@@ -22,3 +22,13 @@ SAVES = G$/Games/RetroBit.Games/saves/
 SAVE_STATES = G$/Games/RetroBit.Games/states/
 CONFIG = G$/Games/RetroBit.Games/config/
 ```
+
+### Install DriveSync for Google Drive, AutoSync for Dropbox or Autosync for OneDrice
+If you want to sync your states and saves to Android you must download and use DriveSync. DriveSync will allow real-time monitoring for your files to pull data from the cloud to your Android device.
+
+## RetroArch Setup
+This is the most important step within the configuration of Cross-Platform syncs. You must change where RetroArch is pulling your save files and state files. Please see below on how to configure each platform.
+
+#### Windows
+
+#### Android
