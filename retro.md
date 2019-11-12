@@ -23,9 +23,19 @@ SAVE_STATES = G$/Games/RetroBit.Games/states/
 CONFIG = G$/Games/RetroBit.Games/config/
 ```
 
-### Install DriveSync for Google Drive, AutoSync for Dropbox or Autosync for OneDrice
+### Install DriveSync for Google Drive, AutoSync for Dropbox or Autosync for OneDrive
 If you want to sync your states and saves to Android you must download and use DriveSync. DriveSync will allow real-time monitoring for your files to pull data from the cloud to your Android device.
 
+1. Synced Folders -> Enable Autosync enabled
+2. Remote folder in Google Drive
+```
+/Games/RetroBit.Games/roms
+```
+3. Local folder in device
+```
+/storage/emulated/0/RetroBit.Games/roms
+```
+4. Synced Folders -> Two-way enabled
 ## RetroArch Setup
 This is the most important step within the configuration of Cross-Platform syncs. You must change where RetroArch is pulling your save files and state files. Please see below on how to configure each platform.
 
