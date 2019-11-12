@@ -12,7 +12,7 @@ Linux
 Nintendo Switch
 ```
 
-Please follow the setup guide listed [here](https://github.com/Sorsnce/retrobit.games/blob/master/retro.md).
+[Please follow the setup guide listed here](https://github.com/Sorsnce/retrobit.games/blob/master/retro.md).
 
 ## RetroBit.Games Website
 Currently RetroBit.Games was designed to allow any users to upload their ROMs to our website and get instant access to their roms, saves, and states on any devices. The following lists what the front-end application is currently configured too.
