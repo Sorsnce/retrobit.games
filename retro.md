@@ -14,7 +14,7 @@ We recommend following this type of directory structure within Google Drive/Drop
 
 Create the following directories within Google Drive/Dropbox. These directories should be blank at this time.
 
-Google Drive/Dropbox = "G$"
+Google Drive/Dropbox/OneDrive = "G$"
 
 ```
 ROMS = G$/Games/RetroBit.Games/roms/
