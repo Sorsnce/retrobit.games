@@ -42,3 +42,6 @@ This is the most important step within the configuration of Cross-Platform syncs
 #### Windows
 
 #### Android
+
+
+## Nvidia Shield
