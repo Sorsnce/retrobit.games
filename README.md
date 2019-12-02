@@ -8,7 +8,7 @@ The following platforms are officially supported for cross saves:
 ```
 Windows 7, 8, 10
 Android >= 7
-Linuxd
+Linux
 Nintendo Switch
 ```
 
