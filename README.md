@@ -44,4 +44,3 @@ The following screenshots are captured from the Windows version of the RetroBit.
 ![Screenshot of NES](https://i.imgur.com/QTMb9xJ.png)
 
 
-c
